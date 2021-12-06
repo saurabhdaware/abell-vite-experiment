@@ -1,0 +1,10 @@
+<html>
+<head>
+  <link rel="shortcut icon" href="https://saurabhdaware.in/assets/images/logo-192.png" type="image/png" />
+</head>
+<body>
+  <h1>{{ 3 + 2 }}</h1>
+  <div id="app"></div>
+  <script type="module" src="/entry-index.js"></script>
+</body>
+</html>

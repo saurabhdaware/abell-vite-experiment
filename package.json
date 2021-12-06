@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "dev": "node abell/dev-server.js",
+    "build:server": "vite build --outDir dist/server --ssr src/entry-server.js",
+    "generate": "NODE_ENV=production npm run build:server && node abell/generate.js"
+  },
+  "dependencies": {
+    "abell-renderer": "^1.0.0-alpha.3",
+    "express": "^4.17.1",
+    "vite": "^2.6.14"
+  }
+}

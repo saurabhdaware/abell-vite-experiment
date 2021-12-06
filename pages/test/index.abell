@@ -1,0 +1,7 @@
+<html>
+<body>
+  {{ "Hello, World!" }}
+  <div id="app"></div>
+  <script type="module" src="./entry-test.js"></script>
+</body>
+</html>
