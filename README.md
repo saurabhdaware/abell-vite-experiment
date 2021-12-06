@@ -11,7 +11,7 @@ yarn
 ## Run Dev Server
 
 ```sh
-node abell/dev-server.js # or yarn dev
+node smol-abell/dev-server.js # or yarn dev
 ```
 
 ## SSG Output
